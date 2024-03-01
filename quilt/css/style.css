@@ -1,0 +1,43 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+  }
+  .box1 {
+    background-color:lightgreen;
+    width:10%;
+    height:10px;
+    float:left;
+  }
+  .box2 {
+    background-color:lightblue;
+    width:10%;
+    height:10px;
+    float:left;
+  }
+  
+  .box3 {
+    background-color:lightpink;
+    width:10%;
+    height:10px;
+    float:left;
+  }
+  
+  .box4 {
+    background-color:lightcoral;
+    width:10%;
+    height:10px;
+    float:left;
+  }
+  
+  .box5 {
+    background-color:lightgoldenrodyellow;
+    width:10%;
+    height:10px;
+    float:left;
+  }
+  .box6 {
+    background-color:lightgrey;
+    width:10%;
+    height:10px;
+    float:left;
+  }
