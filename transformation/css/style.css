@@ -1,0 +1,51 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background: lightpink;
+}
+
+.container{
+    background-color: lightblue;
+    width: 400px;
+    height: fit-content;
+    justify-content: center;
+    margin: auto;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
+.btn{
+    width: 5px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 200%;
+    left: 52%;
+    gap: 25px;
+    justify-content: center;
+}
+
+.incorrectbtn1,.incorrectbtn2, .correctbtn{
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.incorrectbtn1:hover,.incorrectbtn2:hover, .correctbtn:hover{
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text{
+    font-weight: bold;
+}
