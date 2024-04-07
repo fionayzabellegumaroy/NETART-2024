@@ -1,0 +1,101 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: lightslategray;
+    align-items: center;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 45px;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 5px;   
+    font-style: italic;
+    position: fixed;
+    border: 2px solid black;
+    left:0;
+    right:0;
+}
+
+.name{
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.description{
+    justify-content: center;
+    background-color: lightgray;
+    padding: 30px 20px;
+    border: black 5px solid;
+    text-align: justify;
+    position: relative;
+    bottom: -100px;
+    width: 500px;
+    margin: auto;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    border: 1px solid black;
+    position: relative;
+    bottom: -135px;
+}
+
+.workcontainer{
+    position: relative;
+    padding-top: 100px;
+    bottom: -150px;
+    justify-content: center;
+    margin: auto;
+}
+
+.containercyberfem, .gamecontainer, .aicontainer, .showcontainer{
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.heading{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.image{
+    /* max-height: 200px; */
+    max-width: 500px;
+    padding: 20px;
+    max-height: 500px;
+    /* display: flex; */
+}
+
+.descriptionwork{
+    border: 2px black solid;
+    text-align: justify;
+    border-radius: 10px;
+    max-height: fit-content;
+    max-width: 300px;
+    align-items: center;
+    /* right: -50px; */
+    position: relative;
+    background-color: lightgray;
+    padding: 10px; 
+    margin: auto;
+
+}
+
+.image:hover{
+    cursor: pointer;
+}
