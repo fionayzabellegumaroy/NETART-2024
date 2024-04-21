@@ -4,48 +4,79 @@
 
 body{
     background: lightpink;
+    font-size: 20px;
 }
 
 .container{
     background-color: lightblue;
-    width: 400px;
+    width: fit-content;
     height: fit-content;
     justify-content: center;
     margin: auto;
     transform: translate(-50%, -50%);
-
+    padding: 5px;
     border: 1px solid black;
     display: flex;
     align-items: center;
     position: absolute;
     top: 45%;
     left: 50%;
+    border-radius: 10px;
 }
 
 .btn{
     width: 5px;
-    display: flex;
     align-items: center;
     position: absolute;
     top: 200%;
-    left: 52%;
     gap: 25px;
     justify-content: center;
+    display: flex;
 }
 
-.incorrectbtn1,.incorrectbtn2, .correctbtn{
+button{
     padding: 10px;
-    background-color: black;
+    background-color: white;
     border-radius: 10px;
+    display:list-item
 }
 
-.incorrectbtn1:hover,.incorrectbtn2:hover, .correctbtn:hover{
+.button1:hover,.button2:hover, .button3:hover{
     padding: 10px;
-    background-color: lightgrey;
+    background-color: lightgoldenrodyellow;
     border-radius: 10px;
     cursor: pointer;
 }
 
+.start{
+    margin:auto;
+    position: absolute;
+    justify-content: center;
+    font-size: 30px;
+}
+
 .text{
     font-weight: bold;
+}
+
+.redo{
+    margin:auto;
+    position: absolute;
+    justify-content: center;
+    bottom: 100px;
+    font-size: 30px;
+}
+
+.redo:hover, .start:hover{
+    cursor: pointer;
+    background-color: lightgoldenrodyellow;
+
+}
+
+.count{
+    bottom: 30px;
+    top: 100px;
+    background-color: red;
+    z-index: 100;
+    display: flex;
 }
