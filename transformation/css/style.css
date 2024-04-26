@@ -1,0 +1,250 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+body{
+    font-size: 20px;
+    background-image: url(/images/background.png);
+    background-size:cover;
+    background-color: lightblue;
+    text-align: center;
+
+}
+
+.container{
+    background-color: lightpink;
+    width: 500px;
+    height: 100px;
+    justify-content: center;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.btn{
+    width: 5px;
+    align-items: center;
+    position: fixed;
+    top: 150%;
+    gap: 25px;
+    justify-content: center;
+    display: flex;
+}
+
+button{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display:list-item
+}
+
+.button1:hover,.button2:hover, .button3:hover{
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.start{
+    margin:auto;
+    position: absolute;
+    justify-content: center;
+    font-size: 30px;
+    width: 500px;
+}
+
+.end{
+    z-index: 10000;
+    position: absolute;
+    margin: auto;
+    justify-content: center;
+    left: 150px;
+
+}
+
+.text{
+    font-weight: bold;
+    position: absolute;
+    width: fit-content;
+}
+
+.redo{
+    margin:auto;
+    position: absolute;
+    justify-content: center;
+    bottom: -100px;
+    font-size: 30px;
+    z-index: 1000;
+}
+
+.redo:hover, .start:hover, .end:hover{
+    cursor: pointer;
+    background-color: lightgoldenrodyellow;
+}
+
+
+.sun{
+    width: 400px;
+    z-index: 100;
+    top:-200px;
+    margin: auto;
+    position: absolute;
+}
+
+#fullsun{
+    animation: 1.5s linear infinite;
+    -webkit-animation:rotation 1.5s linear infinite;
+    -moz-animation:rotation 1.5s linear infinite;
+}
+@-moz-keyframes rotation { 100% { -moz-transform: rotate(30deg); } }
+@-webkit-keyframes rotation { 100% { -webkit-transform: rotate(30deg); } }
+@keyframes rotation { 30% { -webkit-transform: rotate(30deg); transform:rotate(30deg); } 10% { -webkit-transform: rotate(-30deg); transform:rotate(-30deg); } 10% { -webkit-transform: rotate(-30deg); transform:rotate(-30deg); } 30% { -webkit-transform: rotate(30deg); transform:rotate(30deg); }  } 
+
+
+
+.rays{
+    width: 425px;
+    justify-content: center;
+    z-index: -1;
+    top: -210px;
+    margin: auto;
+    position: absolute;
+    animation:spin 4s linear infinite;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } } 
+
+
+.birds{
+    margin: auto;
+    justify-content: center;
+    width: 200px;
+    z-index: -10;
+    position: absolute;
+    top: -250px;
+}
+
+#leftbird{
+    left: 300px;
+
+}
+
+#rightbird{
+    right: 300px;
+
+}
+
+.cloud, .outercloud{
+    width: 700px;
+    margin: auto;
+    position: absolute;
+    top: -225px;
+    z-index: -10;
+}
+
+#leftcloud{
+    left:100px;
+    z-index: 101;
+}
+
+#rightcloud{
+    right:100px;
+    transform: rotateY(180deg);
+    z-index: 101;
+}
+
+#leftleftcloud{
+    left: 250px;
+    top: -300px;
+    transform: rotateY(180deg);
+    width: 900px;
+    z-index: -1001;
+}
+
+#rightrightcloud{
+    right: 250px;
+    top: -300px;
+    width: 900px;
+    z-index: -1001;
+
+}
+
+.rains{
+    width: 150%;
+    top: -100px;
+    margin: auto;
+    position: absolute;
+    justify-content: center;
+    z-index: -1000;
+}
+
+#rain1{
+    z-index: -1000;
+
+}
+
+#rain2{
+    right: 375px;
+    z-index: -1000;
+
+}
+
+#rain3{
+    right: 100px;
+    z-index: -1000;
+
+}
+
+#rain4{
+    left: 50px;
+    z-index: -1000;
+
+}
+
+#rain5{
+    left: 175px; 
+    z-index: -1000;
+
+}
+
+#rain6{
+    left: 300px;
+    z-index: -1000;
+
+}
+
+#rain7{
+    left: 375px;
+    z-index: -1000;
+
+}
+
+.count{
+    margin: auto;
+    position: fixed;
+    top: -250px;
+    z-index: 1000;
+    right: -250px;
+
+}
+
+.footnote{
+    font-size: 10px;
+    bottom: 0px;
+    position: fixed;
+}
+/* images change position when the thing gets wider? is there a way to stop this */
+/* rain is not gif so can't click throughh */
