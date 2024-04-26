@@ -18,7 +18,7 @@ const cloud = document.querySelectorAll(".cloud");
 const outercloud = document.querySelectorAll(".outercloud");
 const rain = document.querySelectorAll(".rains");
 
-body.style.backgroundColor = "images/background.png";
+body.style.background = "images/background.png";
 
 redo.style.display = "none";
 rays.style.display = "none";
