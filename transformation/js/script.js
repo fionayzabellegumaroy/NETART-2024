@@ -1,7 +1,6 @@
 
 const sun = document.querySelector("#sun");
 const fullsun = document.querySelector("#fullsun");
-
 const button1 = document.querySelector(".button1");
 const button2 = document.querySelector(".button2");
 const button3 = document.querySelector(".button3");
@@ -15,12 +14,11 @@ const end = document.querySelector(".end");
 const rays = document.querySelector(".rays");
 const lbird = document.querySelector("#leftbird");
 const rbird = document.querySelector("#rightbird");
-
 const cloud = document.querySelectorAll(".cloud");
 const outercloud = document.querySelectorAll(".outercloud");
-
-
 const rain = document.querySelectorAll(".rains");
+
+body.style.backgroundColor = "images/background.png";
 
 redo.style.display = "none";
 rays.style.display = "none";
