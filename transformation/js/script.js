@@ -63,7 +63,7 @@ start.addEventListener("click", () => {
     if (birdTrack === 300) track = 0;
     else if (track === 0) birdTrack = 300;
 
-    count.innerText = track;
+    //count.innerText = track;
 
 
     button1.style.display = "list-item";
@@ -154,7 +154,7 @@ start.addEventListener("click", () => {
             lbird.style.left = `${birdTrack}px`;
             rbird.style.right = `${birdTrack}px`;
 
-            count.innerText = track;
+            //count.innerText = track;
 
             button1.id = "btn";
             button2.id = "btn";
@@ -201,16 +201,5 @@ start.addEventListener("click", () => {
             button2.id = "btn";
             button3.id = "btn";
         }
-    });
-
-
-        //animate fullsun
-        sun.style.rotate = "(10deg)";
-        sun.style.rotate = "(-10deg)";
-        sun.style.rotate = "(-10deg)";
-        sun.style.rotate = "(10deg)";     
+    });  
 })
-
-
-// bug: after ending, there comes a apoint where there's two correct buttons
-//trrack doees not update so i think thata's why there's two correct buttons
