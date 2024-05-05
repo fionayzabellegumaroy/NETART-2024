@@ -92,7 +92,7 @@ start.addEventListener("click", () => {
 
                 
             } else if (elem.id != "correct"){
-                text.innerText = "You selected incorrectly and therefore have saddened mother nature.";
+                text.innerText = "You selected incorrectly and have therefore saddened mother nature.";
                 container.style.backgroundColor = "lightpink";
                 button1.style.display = "none";
                 button2.style.display = "none";
