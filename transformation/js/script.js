@@ -72,16 +72,16 @@ start.addEventListener("click", () => {
 
     start.style.display = "none";
     start.innerText = "";
-    text.innerText = "Which is the Correct Button?";
+    text.innerText = "Which is the correct button?";
 
-    container.style.backgroundColor = "lightpink";
+    container.style.backgroundColor = "lightgoldenrodyellow";
     container.style.border = "black solid 1px";
     buttons.forEach(function(elem){
 
         elem.addEventListener("click", ()=>{
             if (elem.id == "correct"){ 
                 text.innerText = "You got it!";
-                container.backgroundColor = "red";
+                container.style.backgroundColor = "lightgoldenrodyellow";
                 button1.style.display = "none";
                 button2.style.display = "none";
                 button3.style.display = "none";
@@ -92,8 +92,8 @@ start.addEventListener("click", () => {
 
                 
             } else if (elem.id != "correct"){
-                text.innerText = "Something is occurring.";
-                container.style.backgroundColor = "lightgoldenrodyellow";
+                text.innerText = "You have selected the incorrect one, and therefore,  have saddened mother nature.";
+                container.style.backgroundColor = "lightpink";
                 button1.style.display = "none";
                 button2.style.display = "none";
                 button3.style.display = "none";
