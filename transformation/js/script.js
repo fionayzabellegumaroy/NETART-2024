@@ -167,6 +167,7 @@ start.addEventListener("click", () => {
 
         redo.style.display = "none";
         text.innerText = "Which is the Correct Button?";
+        container.style.backgroundColor = "lightgoldenrodyellow";
 
         button1.style.display = "list-item";
         button2.style.display = "list-item";
